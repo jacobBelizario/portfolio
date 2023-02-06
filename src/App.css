@@ -18,6 +18,10 @@
   font-family: 'Righteous', cursive;
   text-align: center;
 }
+.btnColor {
+  color: #fff;
+  background-color: #011f4b;
+}
 .landtitle {
   font-family: 'Righteous', cursive;
   color: var(--dark-color);
