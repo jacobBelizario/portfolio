@@ -102,7 +102,7 @@ export const Skills = () =>
               Built with Android-Kotlin. Has camera and authentication functionality. Uses Firebase as its data store
             </Card.Text>
             <div className='btnGroup1 text-center'>
-              <Button onClick={snipsClick} className='btnColor'><i class="fa-brands fa-github"></i> Github</Button>
+              <Button onClick={snipsClick} variant='secondary'><i class="fa-brands fa-github"></i> Github</Button>
               </div>
             </div> 
         </div>
@@ -116,8 +116,8 @@ export const Skills = () =>
           Built with HandleBars and NodeJS. Has cart and authentication functionality. Uses MongoDB as its data store
         </Card.Text>
         <div className='btnGroup2 text-center'>
-            <Button onClick={fitnessClick1} className='btnColor'><i class="fa-brands fa-github"></i> Github</Button>
-            <Button onClick={fitnessClick2} className='btnColor'><i class="fa-brands fa-html5"></i> Website</Button>
+            <Button onClick={fitnessClick1} variant='secondary'><i class="fa-brands fa-github"></i> Github</Button>
+            <Button onClick={fitnessClick2} variant='secondary'><i class="fa-brands fa-html5"></i> Website</Button>
             </div>
         </div>
         <Carousel>
@@ -201,9 +201,9 @@ export const Skills = () =>
                       Helped HCX Technology Partners Inc. save money. Uses Nginx reverse Proxy and docker-compose. Migrated on-premise Itop environments on the cloud
                     </Card.Text>
                     <div className='btnGroup3 text-center'>
-                    <Button onClick={hcxClick1} className='btnColor'><i class="fa-brands fa-html5"></i> tito</Button>
-                    <Button onClick={hcxClick2} className='btnColor'><i class="fa-brands fa-html5"></i> tita</Button>
-                    <Button onClick={hcxClick3} className='btnColor'><i class="fa-brands fa-html5"></i> dev</Button>
+                    <Button onClick={hcxClick1} variant='secondary'><i class="fa-brands fa-html5"></i> tito</Button>
+                    <Button onClick={hcxClick2} variant='secondary'><i class="fa-brands fa-html5"></i> tita</Button>
+                    <Button onClick={hcxClick3} variant='secondary'><i class="fa-brands fa-html5"></i> dev</Button>
                     </div>
                     </div>
                 </div>
